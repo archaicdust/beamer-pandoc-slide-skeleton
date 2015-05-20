@@ -1,4 +1,12 @@
 
+# Usage
+
+Step1 Edit src_slide/slide.rst
+
+Step2 Convert rst/md to pdf
+
+    $ make
+
 # Compile Env
 
 On Arch Linux
