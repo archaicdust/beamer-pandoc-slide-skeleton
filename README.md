@@ -1,4 +1,10 @@
 
+# Compile Env
+
+On Arch Linux
+
+    $ packer -S pandoc-static
+
 # beamer pandoc 中文
 
 ## beamer pandoc
