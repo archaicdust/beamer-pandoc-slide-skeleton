@@ -7,6 +7,17 @@ Step2 Convert rst/md to pdf
 
     $ make
 
+Or you can use pandoc directly
+
+    $ pandoc -t beamer ./src_slide/slide.md -o slide.pdf
+    $ pandoc -t beamer ./src_slide/slide.rst -o slide.pdf
+
+When the slide is written in Chinese,
+
+    $ pandoc -t beamer ./src_slide/slide.md -o slide.pdf --latex-engine=xelatex -V mainfont="LiHei Pro"
+    $ pandoc -t beamer ./src_slide/slide.rst -o slide.pdf --latex-engine=xelatex -V mainfont="LiHei Pro"
+
+
 # Compile Env
 
 On Arch Linux
