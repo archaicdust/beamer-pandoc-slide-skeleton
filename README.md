@@ -15,7 +15,7 @@ Or you can use pandoc directly
 When the slide is written in Chinese,
 
     $ pandoc -t beamer ./src_slide/slide.md -o slide.pdf --latex-engine=xelatex -V mainfont="LiHei Pro"
-    $ pandoc -t beamer ./src_slide/slide.rst -o slide.pdf --latex-engine=xelatex -V mainfont="LiHei Pro"
+    $ pandoc -t beamer ./src_slide/slide.rst -o slide.pdf --latex-engine=xelatex -V mainfont="WenQuanYi Zen Hei"
 
 
 # Compile Env
@@ -23,6 +23,8 @@ When the slide is written in Chinese,
 On Arch Linux
 
     $ packer -S pandoc-static
+
+    $ pacman -S wqy-zenhei # WenQuanYi Zen Hei 文泉驛正黑體
 
 # beamer pandoc 中文
 
@@ -46,3 +48,5 @@ xelatex
 [TeX Live - ArchWiki - Arch Linux](https://wiki.archlinux.org/index.php/TeX_Live)
 
 [Pandoc 用命令行轉換標記語言！](https://www.openfoundry.org/tw/foss-programs/8814-pandoc-)
+
+[mac 安裝文泉驛正黑體](http://pre.tir.tw/008/blog/output/mac-an-zhuang-wen-quan-yi-zheng-hei-ti.html)
